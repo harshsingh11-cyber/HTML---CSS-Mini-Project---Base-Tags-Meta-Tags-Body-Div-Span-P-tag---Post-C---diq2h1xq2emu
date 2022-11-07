@@ -1,1 +1,360 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@keyframes backgroundchange{
+    0%{
+        background-image: url(./img/dominar-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{background-image: url(./img/mt-15.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{background-image: url(./img/hayabusa-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    75%{background-image: url(./img/bmw-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{background-image: url(./img/bmw-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(59, 56, 56);
+    /* position: fixed; */
+}
+.logo{
+    width: 50%;
+    height: auto;
+}
+.option{
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    margin-left: 50px;
+    
+    
+}
+.logo img{
+    padding-top: 10px;
+    width: 150px;
+    height: 130px;
+    padding-left: 150px;
+    border-radius: 10px;
+    /* background-image: url(./img/bikers-logo.jpg);  */
+}
+.option a{
+    text-decoration: none;
+    font-size: 2.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    padding-left: 30px;
+    padding-right: 50px;
+    
+}
+.container{
+    display: flex;
+    background-color: rgb(85, 78, 78);
+}
+.imagesa{
+    width: 50%;
+    height: auto;
+}
+#animate{
+    margin-left: 30px;
+    margin-top: 150px;
+    border-radius: 40px;
+    width: 800px;
+    height: 500px;
+    /* background-color: aqua; */
+    animation-name: backgroundchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
 
+.contenta{
+    width: 50%;
+    height: 850px;
+}
+
+.contenta .contentb{
+    font-size: 2.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 10px;
+    padding: 220px 20px 0px 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.4;
+}
+.typesa{
+    width: 100%;
+    height: auto;
+    background-color: rgb(85, 78, 78);
+}
+.typesa h1{
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 4px #241515;
+    padding: 5px 0px 20px 40px;
+    text-align: center;
+}
+/* .first span{
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px ;
+    margin-left: 50px;
+} */
+.typesa .types{
+    display: flex;
+   
+}
+#types{
+    padding-bottom: 50px;
+}
+
+.bikes{
+    width: 45%;
+    height: 500px;
+}
+.first{
+    padding-top: 25px;
+}
+.second{
+    padding-top: 25px;
+}
+.A-1{
+    width: 650px;
+    height: 400px;
+    background-image: url(./img/A-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.aboutbikes{
+    width: 55%;
+    height: 500px;
+    background-color: rgb(85, 78, 78);
+}
+.cont{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 12px;
+    padding: 60px 80px 20px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.4;
+
+}
+
+span{
+    font-size: 2.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.cont-1{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 12px;
+    padding: 30px 0px 0px 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.4;
+
+}
+.A-2{
+    width: 700px;
+    height: 400px;
+    background-image: url(./img/b=11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 40px;
+   
+}
+
+.A-3{
+    width: 650px;
+    height: 350px;
+    background-image: url(./img/c-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+     margin-left: 50px;
+    margin-top: 20px; 
+}
+.cont-a{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 12px;
+    padding: 60px 40px 0px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+}
+
+.A-4{
+    width: 700px;
+    height: 400px;
+    background-image: url(./img/D-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 35px;
+   
+}
+.A-5{
+    width: 650px;
+    height: 350px;
+    background-image: url(./img/E-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+     margin-left: 50px;
+    margin-top: 20px; 
+}
+.A-6{
+    width: 700px;
+    height: 400px;
+    background-image: url(./img/F-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 35px;
+   
+}
+.A-7{
+    width: 650px;
+    height: 350px;
+    background-image: url(./img/g-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+     margin-left: 50px;
+    margin-top: 20px; 
+}
+.A-8{
+    width: 700px;
+    height: 400px;
+    background-image: url(./img/h-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 35px;
+   
+}
+.A-9{
+    width: 650px;
+    height: 350px;
+    background-image: url(./img/j-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+     margin-left: 50px;
+    margin-top: 20px; 
+}
+.A-10{
+    width: 700px;
+    height: 400px;
+    background-image: url(./img/I-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 20px;
+    margin-left: 35px;
+   
+}
+
+#foote .foot{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(133, 153, 153);
+}
+
+#foote .foot-a{
+    width: 50%;
+}
+
+ul{
+    display: inline;
+    float: left;
+}
+
+ul a{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.ul{
+    margin-left: 300px;
+}
+i {
+	font-size: 20px;
+	color: #000;
+	align-self: center;
+	transition: color 500ms;
+}
+.fa-envelope:hover {
+	color: #ffffff;
+}
+.fa-map-marker:hover {
+	color: #ffffff;
+}
+.fa-twitter-square:hover {
+	color: #126bf0;
+}
+.fa-linkedin:hover {
+	color: #1114d1;
+}
+.fa-instagram:hover {
+	color: #df2416;
+}
+.pro-1{
+    color: rgb(218, 173, 173);
+}
+.pro-1 .procon{
+    color: rgb(7, 1, 1);
+}
+.copy{
+    font-size: 20px;
+	color: rgb(12, 12, 12);
+	align-self: center;
+	transition: color 500ms;
+    padding-top: 10px;
+    padding-left: 200px;
+    overflow: hidden;
+}
+.xcv{
+    
+    letter-spacing: 2px;
+    text-shadow: #df2416 0 0,cyan 0 0;
+    transition: text-shadow 200ms;
+}
+.xcv:hover{
+    text-shadow: #df2416 -2px 0,cyan 2px 0;
+}
+#types:hover{
+    text-shadow: #df2416 -2px 0,cyan 2px 0;
+}
