@@ -67,8 +67,13 @@ To deploy this project
 
 ## Screenshots
 
+![Screenshot (32)](https://user-images.githubusercontent.com/65847214/200302087-2f5a8bae-4680-4bb0-b012-7d0eab796f13.png)
 
+![Screenshot (33)](https://user-images.githubusercontent.com/65847214/200302106-78243178-96ec-46af-865b-0285e80f8ab5.png)
 
+![Screenshot (34)](https://user-images.githubusercontent.com/65847214/200302116-3326c19c-129d-4669-86ca-3541d7699115.png)
+
+![Screenshot (35)](https://user-images.githubusercontent.com/65847214/200302133-af37e2b9-bad1-4a57-aa08-67a8f9aa20e5.png)
 
 ## Lessons Learned
 
