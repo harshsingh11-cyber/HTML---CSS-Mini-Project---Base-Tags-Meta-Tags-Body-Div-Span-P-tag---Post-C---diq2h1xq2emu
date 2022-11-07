@@ -23,7 +23,7 @@ There is no universal system for classifying all types of motorcycles. Street mo
 Street motorcycles powered by electric motors are becoming more common, with firms like Harley-Davidson entering the market.
 ```
 ## 🔗 Links
-### Project link :- (https://katherineoelsner.com/)
+### Project link :- (https://bike-types-detailes.netlify.app/)
 
 ## Tech Stack
 
